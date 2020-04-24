@@ -28,6 +28,100 @@
   color: #61dafb;
 }
 
+body{
+}
+
+.whole-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+ 
+}
+
+.start-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-options-button {
+  margin: 20pt
+}
+
+.sentence {
+  top: 40pt;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  overflow-y: scroll;
+}
+
+.sentence-inside {
+  min-height: 90%;
+  padding-bottom: 30pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.response-grid-item {
+  width: 100%;
+
+}
+
+.responseCard {
+  width: 75%;
+  padding: 10pt;
+}
+
+.prompt-text {
+  width: 75%;
+  margin: auto;
+}
+
+.next-sentence {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10pt;
+}
+
+.last-sentence {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10pt;
+}
+
+.show-authors {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 10pt;
+}
+
+.single-response {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10pt;
+  max-width: 500pt;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
